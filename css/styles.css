@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    background-image: url("../images/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.form{
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    color: #00567A;
+}
+Form {
+    width: 300px;
+    padding: 15px 40px 40px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 4% auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #EBF9FF;
+}
+.box {
+    padding-bottom: 10px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+}
+input[type=text]{
+        outline: none;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #00567A;
+    border-color: #00567A;
+    box-shadow: 0 3px 0 #001D29;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #001D29;
+    border-color: #001D29;
+}
+input[type="reset"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #6F5775;
+    border-color: #6F5775;
+    box-shadow: 0 3px 0 #433446;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="reset"]:hover {
+    background: #433446;
+    border-color: #433446;
+}
+
+.input-1{
+    background-image: url(../images/check.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border:1px solid green;
+}
+.input-2{
+    background-image: url(../images/cancel.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border:1px solid red;
+}

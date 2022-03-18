@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="center">
+    <form name="Form" onsubmit="return validateForm()" >
+        <h2>Sign Up</h2>
+        <div class="box">
+            <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+            <div class="error" id="fnameErr"></div>
+        </div>
+        <div class="box">
+            <input type="text" name="mname" id="mname" placeholder="Enter Middle Initial">
+            <div class="error" id="mnameErr"></div>
+        </div>
+        <div class="box">
+            <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+            <div class="error" id="lnameErr"></div>
+        </div>
+        <div class="box">
+            <input type="text" name="email" id="email" placeholder="Enter Email Address">
+            <div class="error" id="emailErr"></div>
+        </div>
+
+        <div class="box">
+            <input type="submit" value="Submit">
+        </div>
+
+        <div class="box">
+            <input type="reset" value="Reset" onclick="resetButton()">
+        </div>
+    </form>
+  </div>
+</body>
+</html>
